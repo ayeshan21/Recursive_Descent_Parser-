@@ -1,7 +1,6 @@
 # Recursive_Descent_Parser
 
 This C program implements a Recursive Descent Parser to validate and evaluate arithmetic expressions based on a grammar defined in Backus-Naur Form (BNF). The BNF grammar is defined as follows:
-
 <expression> ::= <term> {("+" | "-") <term>}
 <term>       ::= <factor> {("*" | "/") <factor>}
 <factor>     ::= <number> | "(" <expression> ")"
